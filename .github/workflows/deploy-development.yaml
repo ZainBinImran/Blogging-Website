@@ -18,7 +18,7 @@ jobs:
 
       - name: Build Static Website
         run: |
-          npx parcel build "./src/home.html" --dist-dir "./dev" --public-url "./"
+          npx parcel build "./src/index.html" --dist-dir "./dev" --public-url "./"
 
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v3
