@@ -1,0 +1,79 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.hero {
+    background: linear-gradient(to right, #4CAF50, #2E7D32);
+    color: white;
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+nav {
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    padding: 0.75rem 1rem;
+}
+
+nav .logo {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: auto;
+}
+
+nav a {
+    color: white;
+    padding: 0.75rem 1rem;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.contact-form {
+    padding: 2rem;
+    text-align: center;
+}
+
+.contact-form h2 {
+    color: #4CAF50;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2E7D32;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 1rem;
+}
